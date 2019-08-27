@@ -1,0 +1,7 @@
+<h2>Add your first name, favorite color, and favorite number</h2>
+<%= simple_form_for @favorite do |f| %>
+  <%= f.input :name %>
+  <%= f.input :color %>
+  <%= f.input :number %>
+  <%= f.button :submit %>
+<% end %>
